@@ -5,9 +5,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Here you will find the list of officially supported devices
   and instructions for installing TWRP on those devices.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://twrp.me" # the base hostname & protocol for your site
-github_username: TeamWin
+url: "https://twrp.idlekernel.com" # the base hostname & protocol for your site
+github_username: jcadduono
 gems: ['git', 'redcarpet']
+
 # Build settings
 markdown: redcarpet
 keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php]
